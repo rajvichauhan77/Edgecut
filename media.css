@@ -2,17 +2,126 @@
     .need-xl{
         width: 50%;
     }
+
+   .show{
+    display: block;
+    margin-right: 10%;
+   }
+
+   .hide{
+    display: none;
+   }
+
+   .logo-1{
+    margin-left: 10%;
+   }
+   .b-1{
+    padding: 0;
+   }
+
+   /* .nav-links1{
+       
+        left: 0px;
+        top: 70px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        margin: 0px;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: gainsboro;
+   }
+
+   
+
+
+   .nav-links1 a{
+    padding: 5px;
+   }
+   
+   .nav-links2{
+  
+    left: 0px;
+    top: 225px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 10px;
+    border: 1px  solid black ;
+    text-align: center;
+    background-color: gainsboro;
+   } */
+
+
+   .nav{
+   
+        left: 0px;
+        top: 70px;
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        margin: 0px;
+        border-radius: 10px;
+        text-align: center;
+       padding-bottom: 20px;
+        
+         
+   }
+
+   .nav-links2{
+    text-align: center;
+    width: 100%;
+   }
+
+   .nav-links1{
+    text-align: center;
+    width: 100%;
+   
+   }
+
 }
 
 @media(max-width:756px){
     .need-l{
         width: 50%;
     }
-    
+    .b-1{
+        padding: 0;
+       }
 }
 
 @media(max-width:655px){
     .need-sm{
         width: 100%;
+    }
+    .b-1{
+        padding: 0;
+       }
+}
+
+@media(max-width:900px){
+    .about-l{
+        width: 100%;
+    }
+    
+}
+
+@media(min-width:992px){
+    .nav1{
+        display:flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-direction: row;
     }
 }
