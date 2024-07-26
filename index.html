@@ -6,6 +6,10 @@
 
     <link rel="stylesheet" href="media.css">
 
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -57,7 +61,62 @@
     </header>
 
 
-    <section >
+    <section>
+        <div class="container">
+            <div class="slider responsive ">
+                <div class="slider-1">
+                    <div class="content ">
+                        <div class="info need-xl need-l need-sm">
+                            <h1>FOR ALL YOUR <br>
+                                FURNITURE NEEDS</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+                            <div class="b-class b-1">
+                                <button class="b1">Contact us</button>
+                                <button class="b2">About us</button>
+                            </div>
+                        </div>
+                        <div class="image need-xl need-l need-sm">
+                           <img src="images/img1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-1">
+                    <div class="content ">
+                        <div class="info need-xl need-l need-sm">
+                            <h1>FOR ALL YOUR <br>
+                                FURNITURE NEEDS</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+                            <div class="b-class b-1">
+                                <button class="b1">Contact us</button>
+                                <button class="b2">About us</button>
+                            </div>
+                        </div>
+                        <div class="image need-xl need-l need-sm">
+                           <img src="images/img1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-1">
+                    <div class="content ">
+                        <div class="info need-xl need-l need-sm">
+                            <h1>FOR ALL YOUR <br>
+                                FURNITURE NEEDS</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+                            <div class="b-class b-1">
+                                <button class="b1">Contact us</button>
+                                <button class="b2">About us</button>
+                            </div>
+                        </div>
+                        <div class="image need-xl need-l need-sm">
+                           <img src="images/img1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section >
         <div class="main font">
             <div class="content ">
                 <div class="info need-xl need-l need-sm">
@@ -74,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section>
         <div class="our-furniture font">
@@ -377,5 +436,48 @@
 
     </script>
 
+
+
+
+<script type="text/javascript" src="slick/slick.min.js"></script>
+				
+<script>
+    $('.responsive').slick({
+    dots: true,
+    infinite: false,
+    speed: 2000,
+    autoplay:true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+</script>
 </body>
 </html>

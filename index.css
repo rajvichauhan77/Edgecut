@@ -10,7 +10,7 @@ section{
 
 
 .navbar{
-    border: 1px solid red;
+    
     max-width: 1320px;
     margin: auto;
     display: flex;
@@ -78,12 +78,26 @@ section{
     border: none;
 }
 
-.main{
+.slider-1{
     
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+    
+}
+
+.main{
+    border: 1px solid black;
     max-width: 1320px;
     margin: auto;
     padding: 20px;
     
+}
+
+.slick-dots li button::before {
+    font-size: 30px !important ;
 }
 
 .content{
